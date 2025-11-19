@@ -19,7 +19,7 @@ android {
     namespace = "io.github.chsbuffer.revancedxposed"
 
     defaultConfig {
-        applicationId = "io.github.chsbuffer.revancedxposed"
+        applicationId = "io.github.tristan23612.rvx"
         versionCode = 32
         versionName = "1.0.$versionCode"
         val patchVersion = Properties().apply {
