@@ -3,7 +3,7 @@
   <br>
 </div>
 
-**ReVanced LSPosed module by Tristan for Spotify from ChsBuffer.**  
+**ReVanced LSPosed module for Spotify by Tristan forked from ChsBuffer.**  
 >[!IMPORTANT]  
 > This is not an official ReVanced project, do not ask the ReVanced developers for help.
 
