@@ -20,7 +20,7 @@ android {
 
     defaultConfig {
         applicationId = "io.github.tristan23612.rvx"
-        versionCode = 32
+        versionCode = 36
         versionName = "1.0.$versionCode"
         val patchVersion = Properties().apply {
             rootProject.file("revanced-patches/gradle.properties").inputStream().use { load(it) }
