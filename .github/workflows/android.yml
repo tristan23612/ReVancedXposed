@@ -56,8 +56,8 @@ jobs:
       run: |
         GIT_DESCRIBE=$(git rev-parse --short HEAD)
         cd app/build/outputs/apk/universal/release/
-        mv app-universal-release.apk ReVancedXposed-${GIT_DESCRIBE}.apk
+        mv app-universal-release.apk ReVancedXposedSpotify-${GIT_DESCRIBE}.apk
         gh release delete autobuild --yes || true
-        gh release create autobuild ReVancedXposed-${GIT_DESCRIBE}.apk --prerelease --title "AutoBuild ${GIT_DESCRIBE}"
+        gh release create autobuild ReVancedXposedSpotify-${GIT_DESCRIBE}.apk --prerelease --title "AutoBuild ${GIT_DESCRIBE}"
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -38,7 +38,7 @@ jobs:
 
     - run: |
         cd app/build/outputs/apk/universal/release/
-        mv app-universal-release.apk ReVancedXposed-${{ github.ref_name }}.apk
-        gh release create --prerelease ${{ github.ref_name }} ReVancedXposed-${{ github.ref_name }}.apk
+        mv app-universal-release.apk ReVancedXposedSpotify-${{ github.ref_name }}.apk
+        gh release create --prerelease ${{ github.ref_name }} ReVancedXposedSpotify-${{ github.ref_name }}.apk
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

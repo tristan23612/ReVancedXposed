@@ -83,9 +83,7 @@ android {
             java {
                 srcDirs(
                     "../revanced-patches/extensions/shared/library/src/main/java",
-                    "../revanced-patches/extensions/youtube/src/main/java",
                     "../revanced-patches/extensions/spotify/src/main/java",
-                    "../revanced-patches/extensions/music/src/main/java",
                 )
             }
         }
